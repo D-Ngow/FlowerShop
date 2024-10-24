@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "js",
+        "target": "ES2022",
+        "removeComments": true
+    }
+}

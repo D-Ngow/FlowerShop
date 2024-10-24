@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerCorner</title>
+    <link rel="stylesheet" href="/ASM/Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <span class="hotline">HOTLINE: 1900 633 045 | 0865 160 360</span>
+            <div class="account-links">
+                <a href="#">Tài khoản</a>
+                <a href="#">Giỏ hàng</a>
+                <a href="#">Thanh toán</a>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="FlowerCorner">
+            </div>
+            <div class="search-cart">
+                <input type="text" placeholder="Tìm kiếm">
+                <button class="search-button">🔍</button>
+                <div class="cart">
+                    <img src="cart-icon.png" alt="Cart">
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+        <nav class="main-menu">
+            <a href="#">Hoa Sinh Nhật</a>
+            <a href="#">Hoa Khai Trương</a>
+            <a href="#">Lan Hồ Điệp</a>
+            <a href="#">Chủ Đề</a>
+            <a href="#">Thiết Kế</a>
+            <a href="#">Hoa Tươi</a>
+            <a href="#">Hoa Tươi Giảm 30%</a>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+    </div>
+
+    <section class="products">
+        <div class="container">
+            <h2>SẢN PHẨM NỔI BẬT</h2>
+            <ul class="hotproc">
+                <li>
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Hoa Sinh Nhật</h3>
+                    <p>
+                        Hoa sinh nhật với giá chỉ từ 300k
+                    </p>
+                    <button class="btn">MUA NGAY</button>
+                </li>
+                <li>
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Hoa Khai Trường</h3>
+                    <p>
+                        Hoa khai trường với giá chỉ từ 500k
+                    </p>
+                    <button class="btn">MUA NGAY</button>
+                </li>
+                <li>
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Lan Hồ Điệp</h3>
+                    <p>
+                        Lan hồ điệp với giá chỉ từ 800k
+                    </p>
+                    <button class="btn">MUA NGAY</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h2>FlowerCorner</h2>
+                <p>
+                    Copyright 2023 FlowerCorner. All rights reserved.
+                </p>
+                <ul>
+                    <li><a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script type="module">
+        import { fillbanner, fillhotproc } from "/ASM/js/main.js";
+        // document.querySelector(".slideshow-container").innerHTML = await fillbanner();
+    </script>
+    <script src="/ASM/js/srcipt.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+{
+  "Hoa": [
+    {
+      "id": 1,
+      "ten": "Hoa Hồng Đỏ",
+      "gia": 50000,
+      "hinh_anh": "proc1"
+    },
+    {
+      "id": 2,
+      "ten": "Hoa Lan Trắng",
+      "gia": 120000,
+      "hinh_anh": "proc2"
+    },
+    {
+      "id": 3,
+      "ten": "Hoa Cúc Vàng",
+      "gia": 30000,
+      "hinh_anh": "proc3"
+    },
+    {
+      "id": 4,
+      "ten": "Hoa Tulip",
+      "gia": 150000,
+      "hinh_anh": "proc4"
+    },
+    {
+      "id": 5,
+      "ten": "Hoa Ly Hồng",
+      "gia": 100000,
+      "hinh_anh": "proc5"
+    },
+    {
+      "id": 6,
+      "ten": "Hoa Sen Trắng",
+      "gia": 80000,
+      "hinh_anh": "proc6"
+    },
+    {
+      "id": 7,
+      "ten": "Hoa Hướng Dương",
+      "gia": 70000,
+      "hinh_anh": "proc7"
+    },
+    {
+      "id": 8,
+      "ten": "Hoa Cẩm Tú Cầu",
+      "gia": 90000,
+      "hinh_anh": "proc8"
+    },
+    {
+      "id": 9,
+      "ten": "Hoa Bách Hợp",
+      "gia": 110000,
+      "hinh_anh": "proc9"
+    },
+    {
+      "id": 10,
+      "ten": "Hoa Đào",
+      "gia": 60000,
+      "hinh_anh": "proc10"
+    },
+    {
+      "id": 11,
+      "ten": "Hoa Mẫu Đơn",
+      "gia": 140000,
+      "hinh_anh": "proc11"
+    },
+    {
+      "id": 12,
+      "ten": "Hoa Dạ Yến Thảo",
+      "gia": 50000,
+      "hinh_anh": "proc12"
+    },
+    {
+      "id": 13,
+      "ten": "Hoa Giấy",
+      "gia": 40000,
+      "hinh_anh": "proc13"
+    },
+    {
+      "id": 14,
+      "ten": "Hoa Quỳnh",
+      "gia": 90000,
+      "hinh_anh": "proc14"
+    },
+    {
+      "id": 15,
+      "ten": "Hoa Cúc Họa Mi",
+      "gia": 60000,
+      "hinh_anh": "proc15"
+    },
+    {
+      "id": 16,
+      "ten": "Hoa Nhài",
+      "gia": 45000,
+      "hinh_anh": "proc16"
+    },
+    {
+      "id": 17,
+      "ten": "Hoa Cẩm Chướng",
+      "gia": 70000,
+      "hinh_anh": "proc17"
+    },
+    {
+      "id": 18,
+      "ten": "Hoa Thược Dược",
+      "gia": 85000,
+      "hinh_anh": "proc18"
+    },
+    {
+      "id": 19,
+      "ten": "Hoa Sen Đỏ",
+      "gia": 100000,
+      "hinh_anh": "proc19"
+    },
+    {
+      "id": 20,
+      "ten": "Hoa Lài",
+      "gia": 50000,
+      "hinh_anh": "https://example.com/hoa-lai.jpg"
+    }
+  ],
+  "Banner": [
+    {
+      "img": "P657fd22ae76098.00568485.webp"
+    },
+    {
+      "img": "P657fd22ae76098.00568485.webp"
+    },
+    {
+      "img": "P657fd22ae76098.00568485.webp"
+    }
+  ]
+}
+
+  

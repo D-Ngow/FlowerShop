@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Product Page</title>
+    <link rel="stylesheet" href="/ASM/Css/procInfo.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span class="hotline">HOTLINE: 1900 633 045 | 0865 160 360</span>
+            <div class="account-links">
+                <a href="#">Tài khoản</a>
+                <a href="#">Giỏ hàng</a>
+                <a href="#">Thanh toán</a>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="FlowerCorner">
+            </div>
+            <div class="search-cart">
+                <input type="text" placeholder="Tìm kiếm">
+                <button class="search-button">🔍</button>
+                <div class="cart">
+                    <img src="cart-icon.png" alt="Cart">
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+        <nav class="main-menu">
+            <a href="#">Hoa Sinh Nhật</a>
+            <a href="#">Hoa Khai Trương</a>
+            <a href="#">Lan Hồ Điệp</a>
+            <a href="#">Chủ Đề</a>
+            <a href="#">Thiết Kế</a>
+            <a href="#">Hoa Tươi</a>
+            <a href="#">Hoa Tươi Giảm 30%</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h2>FlowerCorner</h2>
+                    <p>
+                        Copyright 2023 FlowerCorner. All rights reserved.
+                    </p>
+                    <ul>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+<script type="module">
+    import {fillhotproc } from "/ASM/js/info.js";
+    document.querySelector(".product-details").innerHTML = await fillhotproc();
+</script>
+</html>
